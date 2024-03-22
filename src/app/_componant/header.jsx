@@ -1,13 +1,17 @@
-import React from 'react';
+'use client'
+import React, { useState } from 'react';
+import { PiListFill } from "react-icons/pi";
 
 const Header = () => {
+        const[open, setOpen]= useState(false);
+
     return (
-        <header className="bg-white shadow-md">
+        <header className="bg-black md:bg-white shadow-md relative">
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="md:flex md:items-center md:gap-12">
-                        <a className="block tracking-wider text-black text-[30px] font-black" href="#">
-                        <span className="text-white relative z-10
+                        <a className="block tracking-wider text-white md:text-black text-[30px] font-black" href="#">
+                            <span className="text-white relative z-10
                         after:content['*']
                         after:absolute
                         after:w-12
@@ -43,19 +47,34 @@ const Header = () => {
                             </ul>
                         </nav>
                     </div>
+                    {open ?
+                    <div className="Dropdown md:hidden absolute w-full h-auto top-[65px] right-0 z-10 bg-black rounded-b-md shadow-md">
+                        <ul className="flex flex-col pr-3 text-sm p-3">
+                            <li className='mb-5'>
+                                <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#About"> About </a>
+                            </li>
+                            <li className='mb-5'>
+                                <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#Resume"> Resume </a>
+                            </li>
+                            <li className='mb-5'>
+                                <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#Services"> Services </a>
+                            </li>
+                            <li className='mb-5'>
+                                <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#Projects"> Projects </a>
+                            </li>
+                            <li className='mb-5'>
+                                <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#MyBlog"> My Blog </a>
+                            </li>
+                            <li className=''>
+                                <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#Contact"> Contact </a>
+                            </li>
+                        </ul>
+                    </div> :<div></div>}
+
                     <div className="flex items-center gap-4">
                         <div className="block md:hidden">
-                            <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-5 w-5"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                >
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                                </svg>
+                            <button onClick={()=>{setOpen(!open)}}>
+                                <PiListFill className='text-white text-[22px] ' />
                             </button>
                         </div>
                     </div>
