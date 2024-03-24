@@ -13,19 +13,19 @@ const About = () => {
                         <p className="text-xl mb-6 text-gray-500">My name is Mohamed, I am a 22 years old web developer based in Egypt.</p>
                         <ul>
                             <li className='flex mb-4 '>
-                                <strong className='w-[120px]'>Full Name :</strong> <span className='text-gray-400'>Mohamed Gamal Ragap</span>
+                                <strong className='w-[80px]'>Name :</strong> <span className='text-gray-400'>Mohamed Gamal Ragap</span>
                             </li>
                             <li className='flex mb-4 '>
-                                <strong className='w-[120px]'>Age :</strong> <span className='text-gray-400'>22 Years Old</span>
+                                <strong className='w-[80px]'>Age :</strong> <span className='text-gray-400'>22 Years Old</span>
                             </li>
                             <li className='flex mb-4 '>
-                                <strong className='w-[120px]'>Address :</strong> <span className='text-gray-400'>Menof ,Menofia</span>
+                                <strong className='w-[80px]'>Address :</strong> <span className='text-gray-400'>Menof ,Menofia</span>
                             </li>
                             <li className='flex mb-4 '>
-                                <strong className='w-[120px]'>Phone :</strong> <span className='text-gray-400'>01025302633</span>
+                                <strong className='w-[80px]'>Phone :</strong> <span className='text-gray-400'>01025302633</span>
                             </li>
                             <li className='flex mb-4 '>
-                                <strong className='w-[120px]'>Email :</strong> <span className='text-gray-400'>medomano771@gmail.com</span>
+                                <strong className='w-[80px]'>Email :</strong> <span className='text-gray-400'>medomano771@gmail.com</span>
                             </li>
                         </ul>
                         <p className='text-[20px] mt-12 mb-4'><span className=' mr-2 text-primary'>23</span>Project complete</p>

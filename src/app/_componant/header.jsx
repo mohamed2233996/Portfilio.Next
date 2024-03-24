@@ -1,12 +1,13 @@
 'use client'
 import React, { useState } from 'react';
 import { PiListFill } from "react-icons/pi";
+import { IoMdClose } from "react-icons/io";
 
 const Header = () => {
         const[open, setOpen]= useState(false);
 
     return (
-        <header className="bg-black md:bg-white shadow-md relative">
+        <header className="bg-black md:bg-white shadow-md sticky top-0 z-50">
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="md:flex md:items-center md:gap-12">
@@ -30,16 +31,13 @@ const Header = () => {
                                     <a className="text-gray-500 transition hover:border-b-primary hover:border-b-[3px]" href="#About"> About </a>
                                 </li>
                                 <li>
-                                    <a className="text-gray-500 transition hover:border-b-primary hover:border-b-[3px]" href="#Resume"> Resume </a>
+                                    <a className="text-gray-500 transition hover:border-b-primary hover:border-b-[3px]" href="#Timeline"> Timeline </a>
                                 </li>
                                 <li>
                                     <a className="text-gray-500 transition hover:border-b-primary hover:border-b-[3px]" href="#Services"> Services </a>
                                 </li>
                                 <li>
                                     <a className="text-gray-500 transition hover:border-b-primary hover:border-b-[3px]" href="#Projects"> Projects </a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-500 transition hover:border-b-primary hover:border-b-[3px]" href="#MyBlog"> My Blog </a>
                                 </li>
                                 <li>
                                     <a className="text-gray-500 transition hover:border-b-primary hover:border-b-[3px]" href="#Contact"> Contact </a>
@@ -54,7 +52,7 @@ const Header = () => {
                                 <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#About"> About </a>
                             </li>
                             <li className='mb-5'>
-                                <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#Resume"> Resume </a>
+                                <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#Timeline"> Timeline </a>
                             </li>
                             <li className='mb-5'>
                                 <a className="text-white transition  hover:border-b-primary hover:border-b-[3px]" href="#Services"> Services </a>
@@ -74,7 +72,7 @@ const Header = () => {
                     <div className="flex items-center gap-4">
                         <div className="block md:hidden">
                             <button onClick={()=>{setOpen(!open)}}>
-                                <PiListFill className='text-white text-[22px] ' />
+                                <PiListFill className='text-white text-[22px] openbtn'/>
                             </button>
                         </div>
                     </div>
