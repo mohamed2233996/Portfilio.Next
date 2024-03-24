@@ -20,7 +20,7 @@ const MainList = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='basis-3/4'>
+                    <div className='md:basis-3/4'>
                         <TimeLIne />
                         <Skills />
                     </div>

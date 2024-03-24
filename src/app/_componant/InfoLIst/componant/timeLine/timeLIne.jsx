@@ -6,7 +6,7 @@ const TimeLIne = () => {
         <div>
             <ul className='list-none pl-3'>
                 <h2 id='education' className='text-primary mb-4 mt-3 text-2xl'>EDUCATION</h2>
-                <li>
+                <li className='border-b-[1px] border-gray-300 mb-8'>
                     <TimLineLi
                         expra="College student"
                         company="Menoufia University"
@@ -16,8 +16,8 @@ const TimeLIne = () => {
                     />
                 </li>
                 {/* /////////add more work experience here////////////////// */}
-                <h2 id='exprience'  className='text-primary mb-4 mt-3 text-2xl'>WORK EXPERIENCE</h2>
-                <li>
+                <h2 id='exprience'  className='text-primary mb-4 mt-20 text-2xl'>WORK EXPERIENCE</h2>
+                <li className='border-b-[1px] border-gray-300 mb-8'>
                     <TimLineLi
                         expra="Senior Developer"
                         company="Freelancer"
@@ -26,7 +26,7 @@ const TimeLIne = () => {
                         describe="Here I had mastered most of the programming languages ​​for the front-end of the site and had already started in the back-end languages"
                     />
                 </li>
-                <li>
+                <li className='border-b-[1px] border-gray-300 mb-8'>
                     <TimLineLi
                         expra="Junior Developer"
                         company="Freelancer"
@@ -35,7 +35,7 @@ const TimeLIne = () => {
                         describe="Here I actually started learning most of the basic languages that help me build a website"
                     />
                 </li>
-                <li >
+                <li className='border-b-[1px] border-gray-300 mb-8'>
                     <TimLineLi
                         expra="Beginner Developer"
                         company="Freelancer"

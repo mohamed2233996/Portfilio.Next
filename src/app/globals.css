@@ -34,4 +34,26 @@ body {
   padding: 7em 0;
 }
 
+.services-cont:hover{
+  background-color: #3e64ff;
+}
+
+.services-cont:hover .span{
+  background-color: white;
+}
+
+.services-cont:hover .icon{
+  color: white;
+}
+
+.prog-cont:hover .over-text,
+.prog-cont:hover .over{
+  display: block;
+}
+
+.w-fill-available{
+  width: -webkit-fill-available;
+}
+
+
 
