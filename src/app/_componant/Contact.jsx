@@ -35,25 +35,25 @@ const Contact = () => {
                         <form action="">
                             <div className="mb-4">
                                 <input
-                                    className="shadow-md mb-6 border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
+                                    className="shadow-md mb-6 border rounded w-full py-2 px-3 text-gray-700 dark:text-white focus:outline-none focus:shadow-outline"
                                     id="name"
                                     type="text"
                                     placeholder="Your Name"
                                 />
                                 <input
-                                    className="shadow-md mb-6 border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
+                                    className="shadow-md mb-6 border rounded w-full py-2 px-3 text-gray-700 dark:text-white focus:outline-none focus:shadow-outline"
                                     id="email"
                                     type="email"
                                     placeholder="Your Email"
                                 />
                                 <input
-                                    className="shadow-md mb-6 border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
+                                    className="shadow-md mb-6 border rounded w-full py-2 px-3 text-gray-700 dark:text-white focus:outline-none focus:shadow-outline"
                                     id="supject"
                                     type="text"
                                     placeholder="Subject"
                                 />
                                 <textarea
-                                    className="shadow-md mb-6 border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
+                                    className="shadow-md mb-6 border rounded w-full py-2 px-3 text-gray-700 dark:text-white focus:outline-none focus:shadow-outline"
                                     id="message"
                                     type="text"
                                     placeholder="Your Message"

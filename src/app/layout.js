@@ -17,6 +17,5 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <body className={poppins.className}>{children}</body>
     </html>
-    // <html lang="en" className="scroll-smooth">
   );
 }
