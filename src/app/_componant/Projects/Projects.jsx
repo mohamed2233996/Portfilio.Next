@@ -11,7 +11,7 @@ const Projects = () => {
                 <h1 className='text-center text-5xl font-extrabold mb-4'>Projects</h1>
                 <p className='text-center text-gray-500'>In this section, our previous work and projects will be revealed</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16">
-                    {projects.projects.map((item) =>{
+                    {projects.projects.toReversed().map((item) =>{
                         return(
                             <a href={item.link} key={item.id} style={item.style} className='relative transition ease-in-out delay-300 overflow-hidden w-full h-[300px] bg-cover bg-no-repeat bg-center flex justify-center items-center prog-cont'>
                                 <div className='hidden over w-full h-full absolute bg-primary opacity-90 transition ease-in-out delay-300'></div>

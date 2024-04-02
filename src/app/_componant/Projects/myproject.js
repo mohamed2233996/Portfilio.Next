@@ -90,7 +90,15 @@ export const projects = {
             "style": {backgroundImage:"url('/projct13.png')"},
             "title": "Movies site",
             "desc": "Full Site"
+        },
+        {
+            "id":"14",
+            "link": "https://main-portfilo.web.app/",
+            "style": {backgroundImage:"url('/projct14.png')"},
+            "title": "My Old Portfilio",
+            "desc": "Full Site"
         }
+
 
     ],
     "mydone": [

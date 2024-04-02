@@ -77,11 +77,7 @@ const Header = () => {
                         </div> : <div></div>}
 
                     {/* dark mod */}
-                    {/* <button
-                        onClick={() => theme == "dark" ? setTheme('light') : setTheme("dark")}
-                        className='bg-gray-800 dark:bg-gray-50 hover:bg-primary dark:hover:bg-gray-300 transition-all duration-100 text-white dark:text-gray-800 px-6 py-2 rounded-lg'>
-                        Toggle Mode
-                    </button> */}
+
                     <button onClick={() => theme == "dark" ? setTheme('light') : setTheme("dark")}
                         className="h-12 w-12 rounded-lg p-2 hover:bg-gray-100 dark:hover:bg-gray-700">
                         <svg class="fill-primary block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
