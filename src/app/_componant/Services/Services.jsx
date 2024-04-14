@@ -5,7 +5,7 @@ import { BsFillBarChartFill, BsFillFileEarmarkCodeFill, BsFillClipboardFill , Bs
 
 const Services = () => {
     return (
-        <div id='Services' className='scetionP'>
+        <div id='Services' className='scetionP scetionDiv'>
             <div className='container m-auto'>
                 <h1 className='text-center text-5xl mb-4 font-extrabold'>Services</h1>
                 <p className='text-center text-gray-500'>In this section you will learn about the services that I provide</p>

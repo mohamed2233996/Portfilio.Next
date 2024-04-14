@@ -3,7 +3,7 @@ import { AiOutlineMail, AiOutlinePhone, AiOutlineHome, AiOutlineFacebook } from 
 
 const Contact = () => {
     return (
-        <div id='Contact' className=' pt-[7em] pb-0'>
+        <div id='Contact' className=' pt-[7em] pb-0 scetionDiv'>
             <div className='container m-auto'>
                 <h1 className='text-center text-5xl font-extrabold mb-4'>Contact Me</h1>
                 <p className='text-center text-gray-500'>Here all means of communication are available</p>

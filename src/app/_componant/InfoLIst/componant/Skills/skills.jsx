@@ -3,8 +3,8 @@ import ProgCard from './progCard';
 
 const Skills = () => {
     return (
-        <>
-            <h2 id='skills' className='text-primary mb-4 mt-3 text-2xl'>Skills</h2>
+        <div className='skillsSction' id='skills'>
+            <h2  className='text-primary mb-4 mt-3 text-2xl'>Skills</h2>
             <div className='grid grid-cols-1 justify-items-center sm:grid-cols-2 lg:grid-cols-4'>
                 <ProgCard
                 title='HTML'
@@ -42,7 +42,7 @@ const Skills = () => {
                 lastM="70%"
                 value="80%"/>
             </div>
-        </>
+        </div>
     );
 }
 

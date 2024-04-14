@@ -6,7 +6,7 @@ import { AiOutlineSelect } from "react-icons/ai";
 const Projects = () => {
     return (
 
-        <div id='Projects' className='scetionP'>
+        <div id='Projects' className='scetionP scetionDiv'>
             <div className='container m-auto'>
                 <h1 className='text-center text-5xl font-extrabold mb-4'>Projects</h1>
                 <p className='text-center text-gray-500'>In this section, our previous work and projects will be revealed</p>

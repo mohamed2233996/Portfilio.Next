@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='about' id='About'>
+        <div className='about scetionDiv' id='About'>
             <div className='container m-auto'>
                 <div className="flex md:justify-center">
                     <div className="hidden md:block w-1/2 h-[750px] bg-no-repeat bg-cover bg-center bg-[url('/about.png')]">
