@@ -23,82 +23,81 @@ export const projects = {
         },
         {
             "id":"4",
-            "link": "https://medo-weather.web.app/",
-            "style": {backgroundImage:"url('/projct4.png')"},
-            "title": "Weather App",
-            "desc": "Api Back End"
-        },
-        {
-            "id":"5",
-            "link": "https://medo-app-ee179.web.app/",
-            "style": {backgroundImage:"url('/projct5.png')"},
-            "title": "React App",
-            "desc": "React"
-        },
-        {
-            "id":"6",
             "link": "https://mohamed2233996.github.io/medo-frem/",
             "style": {backgroundImage:"url('/projct6.png')"},
             "title": "Accounting",
             "desc": "Ftont End"
         },
         {
-            "id":"7",
+            "id":"5",
             "link": "https://mohamed2233996.github.io/portfilio/",
             "style": {backgroundImage:"url('/projct7.png')"},
             "title": "Portfilio",
             "desc": "Front End"
         },
         {
-            "id":"8",
+            "id":"6",
             "link": "https://mohamed2233996.github.io/My-Site/",
             "style": {backgroundImage:"url('/projct8.png')"},
             "title": "Portfilio",
             "desc": "Front End"
         },
         {
-            "id":"9",
+            "id":"7",
             "link": "https://mohamed2233996.github.io/template-1/",
             "style": {backgroundImage:"url('/projct9.png')"},
             "title": "Free Template",
             "desc": "Front End"
         },
         {
-            "id":"10",
+            "id":"8",
             "link": "https://mohamed2233996.github.io/template-3/",
             "style": {backgroundImage:"url('/projct10.png')"},
             "title": "Free Template",
             "desc": "Front End",
         },
         {
-            "id":"11",
+            "id":"9",
             "link": "https://mohamed2233996.github.io/Medo-Template/",
             "style": {backgroundImage:"url('/projct11.png')"},
             "title": "Agensy",
             "desc": "Full Site"
         },
         {
-            "id":"12",
+            "id":"10",
             "link": "https://mohamed2233996.github.io/qoran-12/",
             "style": {backgroundImage:"url('/projct12.png')"},
             "title": "موقع قراءن كريم",
             "desc": "Full Site"
         },
         {
-            "id":"13",
+            "id":"11",
             "link": "https://mohamed2233996.github.io/medo-movies/",
             "style": {backgroundImage:"url('/projct13.png')"},
             "title": "Movies site",
             "desc": "Full Site"
         },
         {
-            "id":"14",
+            "id":"12",
             "link": "https://main-portfilo.web.app/",
             "style": {backgroundImage:"url('/projct14.png')"},
             "title": "My Old Portfilio",
             "desc": "Full Site"
-        }
-
+        },
+        {
+            "id":"13",
+            "link": "https://fakestore-bice.vercel.app/",
+            "style": {backgroundImage:"url('/projct15.png')"},
+            "title": "Fake Store",
+            "desc": "Front End and API"
+        },
+        {
+            "id":"14",
+            "link": "https://burgry-site.vercel.app/",
+            "style": {backgroundImage:"url('/projct16.png')"},
+            "title": "Burger Store",
+            "desc": "Front End and API"
+        },
 
     ],
     "mydone": [

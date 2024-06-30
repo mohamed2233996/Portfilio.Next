@@ -16,7 +16,6 @@ const Header = () => {
     useEffect(() => {
         const scetionDiv = document.querySelectorAll('.scetionDiv')
         const linksitems = document.querySelectorAll('.links a')
-        console.log(scetionDiv)
         function handelactive() {
             window.onscroll = () => {
                 scetionDiv.forEach(sec => {

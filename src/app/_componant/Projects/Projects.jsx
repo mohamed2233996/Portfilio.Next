@@ -13,7 +13,7 @@ const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16">
                     {projects.projects.toReversed().map((item) =>{
                         return(
-                            <a href={item.link} key={item.id} style={item.style} className='relative transition ease-in-out delay-300 overflow-hidden w-full h-[300px] bg-cover bg-no-repeat bg-center flex justify-center items-center prog-cont'>
+                            <a target="_blank" href={item.link} key={item.id} style={item.style} className='relative transition ease-in-out delay-300 overflow-hidden w-full h-[300px] bg-cover bg-no-repeat bg-center flex justify-center items-center prog-cont'>
                                 <div className='hidden over w-full h-full absolute bg-primary opacity-90 transition ease-in-out delay-300'></div>
                                 <div className='hidden over-text transition ease-in-out delay-300 z-10 text-center'>
                                     <h2 className='text-2xl text-white mb-3'>{item.title}</h2>
