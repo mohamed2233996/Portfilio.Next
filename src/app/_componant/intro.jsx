@@ -5,7 +5,7 @@ import { FaAngleDoubleDown } from "react-icons/fa";
 
 const Intro = () => {
     return (
-        <div className='intro h-[1050px] relative'>
+        <div className='intro h-[1050px] relative' data-aos="zoom-in">
             <div className='bg-scwhite absolute w-1/2 h-full -z-10'></div>
             <div className='container mx-auto h-full flex flex-col justify-center items-center'>
                 <div className='p-2 mb-4 text-center'>
