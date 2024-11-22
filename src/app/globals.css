@@ -15,11 +15,11 @@
 }
 
 /* dark mod */
-/* @layer base{
+@layer base{
   body {
     @apply dark:bg-gray-800 bg-white text-white
   }
-} */
+}
 
 :is(.dark body) {
   color: white;
